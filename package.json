@@ -1,0 +1,14 @@
+{
+  "name": "RocketseatBootcamp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/nennogabriel/RocketseatBootcamp.git",
+  "author": "Pedro Nascimento <nennogabriel@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "lessons/*",
+    "gobarber/*",
+    "meetapp/*"
+  ]
+}
