@@ -1,6 +1,6 @@
 {
-  "name": "RocketseatBootcamp",
-  "version": "1.0.0",
+  "name": "rocketseatbootcamp",
+  "version": "8.0.0",
   "main": "index.js",
   "repository": "https://github.com/nennogabriel/RocketseatBootcamp.git",
   "author": "Pedro Nascimento <nennogabriel@gmail.com>",
