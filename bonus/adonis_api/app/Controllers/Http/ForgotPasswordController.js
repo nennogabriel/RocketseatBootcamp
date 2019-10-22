@@ -6,7 +6,7 @@ const User = use('App/Models/User')
 const Mail = use('Mail')
 
 class ForgotPasswordController {
-  async store({ request, response }) {
+  async store ({ request, response }) {
     try {
       const email = request.input('email')
       const user = await User.findByOrFail('email', email)
@@ -32,12 +32,12 @@ class ForgotPasswordController {
       )
     } catch (err) {
       return response.status(err.status).send({
-        error: { message: 'Algo não deu certo, esse email existe? ', err }
+        error: { message: 'Algo não deu certo, esse email existe?', err }
       })
     }
   }
 
-  async update({ request, response }) {
+  async update ({ request, response }) {
     try {
       const { token, password } = request.all()
 
