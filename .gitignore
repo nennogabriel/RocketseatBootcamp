@@ -15,6 +15,9 @@ app.yaml
 **/*.backup.*
 **/*.back.*
 
+### NextJS ###
+.next
+
 ###### LANGUAGES ######
 ### Node ###
 node_modules/
